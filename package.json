@@ -1,0 +1,28 @@
+{
+  "name": "eslint-prettier-setup",
+  "version": "1.0.0",
+  "description": "basic setup for eslint and prettier",
+  "main": "src/index.js",
+  "scripts": {
+    "format:check": "prettier --check src/**/*.js",
+    "format:write": "prettier --write src/**/*.js",
+    "lint:check": "eslint src/**/*.js",
+    "lint:fix": "eslint --fix src/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "prettier"
+  ],
+  "author": "Alikhan Oitan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.7"
+  }
+}
